@@ -5,7 +5,7 @@ It is a perfect translation of the Figma design file. It makes use of useState, 
 
 Try it here:
 
-![image](https://user-images.githubusercontent.com/99974795/197778713-128fd3de-ca8e-413b-a723-82fc12bf7463.png)
+![image](https://user-images.githubusercontent.com/99974795/197779491-cbae0921-b3a4-4162-ba19-7d5a913cd9bd.png)
 
 
 ![image](https://user-images.githubusercontent.com/99974795/197778483-fc7e4b1a-4b4e-4dde-b6b1-3bac0352d034.png)

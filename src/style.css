@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  min-width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.quiz-container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.blob-one {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  max-width: 10%;
+}
+
+.blob-two {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  max-width: 10%;
+}
+
+.front-page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.title {
+  margin: 0;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: #293264;
+}
+
+.front-page p {
+  color: #293264;
+  margin-top: 10px;
+  font-family: "Inter", sans-serif;
+}
+
+.start {
+  width: 193px;
+  height: 52px;
+  border: none;
+  color: white;
+  background-color: #4d5b9e;
+  border-radius: 15px;
+  margin-top: 15px;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-direction: column;
+  max-width: 600px;
+}
+
+.quiz-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  padding-top: 40px;
+  padding-bottom: 25px;
+}
+
+.question {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  color: #293264;
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  display: inline-block;
+  background-color: white;
+  border: 0.8px solid #4d5b9e;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  text-align: center;
+  color: #293264;
+  padding: 5px 15px 5px 15px;
+  text-justify: center;
+  margin-right: 13px;
+}
+
+input[type="radio"]:checked + label {
+  background-color: #d6dbf5;
+  border: none;
+}
+
+hr {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  border: 0.8px solid #dbdef0;
+}
+
+.submit {
+  padding: 10px 22px 10px 22px;
+  border: none;
+  color: white;
+  background-color: #4d5b9e;
+  border-radius: 10px;
+  align-self: center;
+  font-weight: 500;
+  font-size: 10px;
+  font-family: "Inter", sans-serif;
+}
+.end-game p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  color: #293264;
+}
+
+.end-game {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 812px) {
+  .front-page {
+    width: 50vw;
+    height: 50vh;
+    zoom: 2;
+  }
+  .quiz-container {
+    width: fit-content;
+    height: fit-content;
+    zoom: 2.5;
+    padding: 15px;
+    padding-top: 60px;
+  }
+}

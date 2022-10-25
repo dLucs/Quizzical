@@ -3,7 +3,7 @@ This is the final solo project for the React Basics Module of the Front-End Deve
 
 It is a perfect translation of the Figma design file. It makes use of useState, useEffect, and props, and uses OpentTDB API to gather the questions and answers displayed on the App. It is also optimized for mobile devices.
 
-Try it here:
+Try it here: https://dlucs.github.io/Quizzical/
 
 ![image](https://user-images.githubusercontent.com/99974795/197779491-cbae0921-b3a4-4162-ba19-7d5a913cd9bd.png)
 
